@@ -1,9 +1,9 @@
 # Entity Framework 6 #
 
 
-### `Database.SetInitializer(new NullDatabaseInitializer<DartContext>());` ###
-this is a performance booster;
-it prevents EF from doing all the checking around migrations
+### this is a performance booster; it prevents EF from doing all the checking around migrations ###
+
+    Database.SetInitializer(new NullDatabaseInitializer<DartContext>());
 
 ### Eager Loading ###
 
